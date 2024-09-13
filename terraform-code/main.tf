@@ -12,6 +12,7 @@ resource "github_repository" "mtc_repo" {
 }
 
  resource "github_repository_file" "readme"{
+	count = 2
  	repository = github_repository.mtc_repo[count.index].name
  	branch = "main"
  	file = "README.md"
@@ -19,6 +20,7 @@ resource "github_repository" "mtc_repo" {
  	overwrite_on_create = true 
  }
   resource "github_repository_file" "index"{
+	count = 2
   	repository = github_repository.mtc_repo[count.index].name
   	branch = "main"
   	file = "index.html"
