@@ -181,9 +181,5 @@
     auto_init   = true
   }
   ```
-
-Origen: Conversación con Copilot 12/9/2024
-(1) Leveling up Your Terraform Deploys with Github Codespaces - Launch Pad. https://blog.rocketinsights.com/a-case-for-github-codespaces-and-terraform/.
-(2) Best practices for general style and structure | Terraform - Google Cloud. https://cloud.google.com/docs/terraform/best-practices/general-style-structure.
 (3) markdown - terraform-docs. https://terraform-docs.io/reference/markdown/.
  
