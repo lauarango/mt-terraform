@@ -181,5 +181,3 @@
     auto_init   = true
   }
   ```
-(3) markdown - terraform-docs. https://terraform-docs.io/reference/markdown/.
- 
